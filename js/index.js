@@ -7,7 +7,7 @@ const intro = document.querySelector('.intro');
 const headerImg = document.querySelector('.intro img');
 const busNav = document.querySelector('.bus-nav');
 
-//1
+//1 
 logoHeading.addEventListener('mouseenter', () => { 
 
   logoHeading.classList.toggle('yellow');
