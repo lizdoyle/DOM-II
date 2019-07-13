@@ -9,11 +9,11 @@ const grayBlock = document.querySelector('.block--gray');
 // Rockets:
 //   * When a block is clicked, it should go to the top of the stack.
 
-const rockets = document.querySelectorAll(".block");
+const rockets = document.querySelectorAll(".blocks");
 
-rockets.addEventListener('click', () => {
+// rockets.addEventListener('click', () => {
 
-});
+// });
 
 
 
@@ -22,12 +22,16 @@ rockets.addEventListener('click', () => {
 // * While a mouse is clicked down on a box, it should move to the right 
 // (It should coninuously move, there is no limit on how far it will go).
 
-const travelers = document.querySelectorAll('.block');
+const travelers = document.querySelectorAll('.blocks');
 
 // let travel = setInterval()
 
-travelers.addEventListener('click', (move) => {
-    var pos = 0;
-    var id = setInterval (frame, )
+blocks.addEventListener('click', (move) => {
+    // set the initial position at 0
+    let traveler = document.querySelectorAll('.block');
+    let start = 0;
+    // move to the right continuously?
+
+    traveler.setinterval(frame, 10);
 
 });
