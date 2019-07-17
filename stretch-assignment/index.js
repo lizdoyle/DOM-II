@@ -9,12 +9,17 @@ const grayBlock = document.querySelector('.block--gray');
 // Rockets:
 //   * When a block is clicked, it should go to the top of the stack.
 
-const rockets = document.querySelectorAll(".blocks");
+let rockets = document.querySelectorAll(".blocks");
 
-// rockets.addEventListener('click', () => {
+rockets.addEventListener('click', () => {
+    moveTop();
 
-// });
+});
 
+const moveTop = () => {
+    
+
+}
 
 
 
@@ -33,5 +38,9 @@ blocks.addEventListener('click', (move) => {
     // move to the right continuously?
 
     traveler.setinterval(frame, 10);
+
+    function frame() {
+
+    }
 
 });
