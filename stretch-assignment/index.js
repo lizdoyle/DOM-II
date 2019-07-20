@@ -5,7 +5,7 @@ const greenBlock = document.querySelector('.block--green');
 const pinkBlock = document.querySelector('.block--pink');
 const grayBlock = document.querySelector('.block--gray');
 
-
+ 
 // Rockets:
 //   * When a block is clicked, it should go to the top of the stack.
 
